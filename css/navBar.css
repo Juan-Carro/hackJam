@@ -1,0 +1,36 @@
+
+.navbar-custom {
+    background-color: black; 
+}
+
+
+.navbar-custom .nav-link {
+    color: #a7a9be;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s ease; 
+}
+
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+    color: #9EDF9C; 
+}
+
+
+.navbar-custom .navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #526E48; 
+}
+
+.navbar-custom .navbar-toggler {
+    border: none;
+}
+
+
+
+
+.navbar-nav {
+    padding-right: 10px;
+}

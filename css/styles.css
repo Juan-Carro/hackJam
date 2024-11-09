@@ -1,0 +1,57 @@
+.btn-custom {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 1.5rem; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+
+.btn-custom:hover {
+    background-color: #45a049; 
+}
+
+
+.btn-custom.secondary {
+    background-color: #007BFF; 
+}
+
+.btn-custom.secondary:hover {
+    background-color: #0056b3; 
+}
+
+
+.btn-custom.contacto {
+    background-color: #FF5733; 
+.btn-custom.descarga { 
+    background-color: #ff8906;
+}
+
+.btn-custom.danger:hover {
+    background-color: #c13d24;
+}
+
+html, body {
+    background-color: black;
+    height: 100%; 
+    margin: 0; 
+}
+
+
+.row {
+    display: flex;              /* Establece el contenedor como un contenedor flex */
+    justify-content: space-between;  /* Distribuye los elementos de manera uniforme */
+}
+
+.feature-img {
+    width: 100%;              /* Hace que la imagen ocupe todo el ancho disponible en su contenedor */
+    max-width: 300px;         /* Limita el tamaño máximo de las imágenes a 300px, ajusta según lo necesario */
+    height: auto;             /* Mantiene la relación de aspecto de la imagen */
+    margin-bottom: 1rem;      /* Espacio debajo de la imagen */
+    display: block;           /* Asegura que la imagen se comporta como un bloque */
+    margin-left: auto;        /* Centra la imagen horizontalmente */
+    margin-right: auto;       /* Centra la imagen horizontalmente */
+}

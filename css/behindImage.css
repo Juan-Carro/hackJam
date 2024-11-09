@@ -1,0 +1,36 @@
+#descripcion {
+    position: relative; 
+    background-image: url('../images/electric.jpg');
+    background-size: cover;
+    background-position: center 45%;
+    background-repeat: no-repeat;
+    padding: 5rem;
+    font-size: 3rem;
+    color: white;
+    height: 55vh;
+    z-index: 1; 
+  }
+  
+  #descripcion::before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: -1; 
+  }
+  
+  #descripcion h1 {
+    font-size: 3rem;
+    color: white;
+    z-index: 2; 
+  }
+  
+  #descripcion p {
+    font-size: 1.7rem;
+    color: white;
+    z-index: 2; 
+}
+  

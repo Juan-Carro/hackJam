@@ -1,0 +1,45 @@
+/* Estilos para la sección de Funcionalidades */
+#funcionalidades {
+    background-color: #f8f9fa; /* Fondo claro para la sección */
+    padding-top: 40px;  /* Padding superior */
+    padding-bottom: 40px;  /* Padding inferior */
+}
+
+#funcionalidades h1 {
+    font-size: 2.5rem; /* Tamaño grande para el título */
+    color: #222; /* Color de texto oscuro */
+    font-weight: bold;
+    margin-bottom: 30px; /* Margen inferior */
+}
+
+#funcionalidades .col-md-4 h3 {
+    font-size: 1.75rem; /* Tamaño de los subtítulos */
+    color: #333; /* Color azul para los subtítulos */
+    margin-bottom: 15px; /* Espacio debajo del subtítulo */
+}
+
+#funcionalidades .col-md-4 p {
+    font-size: 1rem; /* Tamaño de fuente para los párrafos */
+    color: #555; /* Color gris para el texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+/* Agregar márgenes a las imágenes */
+#funcionalidades .col-md-4 img {
+    margin-bottom: 20px; /* Espacio debajo de las imágenes */
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+    #funcionalidades h1 {
+        font-size: 2rem; /* Reducir el tamaño del título en pantallas pequeñas */
+    }
+
+    #funcionalidades .col-md-4 h3 {
+        font-size: 1.5rem; /* Reducir tamaño de los subtítulos */
+    }
+
+    #funcionalidades .col-md-4 p {
+        font-size: 0.9rem; /* Reducir el tamaño de los párrafos */
+    }
+}
